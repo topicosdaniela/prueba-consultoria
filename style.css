@@ -1,0 +1,49 @@
+/* If screen size is LESS than 1200px wide */
+@media (max-width: 1200px){ 
+    
+}
+
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){ 
+    
+}
+
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+    
+}
+
+table{
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: transparent;
+    width: 75%;
+}
+
+.titulo-css{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px black;
+    }
+
+.nombre-css{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.autor-css{
+    font-size: 9px;
+    margin: 0px;
+}
+
+.fecha-css{
+    text-align: right;
+}
